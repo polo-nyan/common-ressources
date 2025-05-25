@@ -1,0 +1,200 @@
+[
+  {
+    "theme": "general",
+    "messages": {
+      "en": "You are valid. Your identity is real, and you belong here.",
+      "es": "Eres válido. Tu identidad es real y perteneces aquí.",
+      "de": "Du bist gültig. Deine Identität ist real, und du gehörst hierher.",
+      "fr": "Tu es valide. Ton identité est réelle et tu as ta place ici."
+    }
+  },
+  {
+    "theme": "general",
+    "messages": {
+      "en": "Love is love. Always.",
+      "es": "El amor es amor. Siempre.",
+      "de": "Liebe ist Liebe. Immer.",
+      "fr": "L'amour, c'est l'amour. Toujours."
+    }
+  },
+  {
+    "theme": "trans_pride",
+    "messages": {
+      "en": "Trans rights are human rights.",
+      "es": "Los derechos trans son derechos humanos.",
+      "de": "Trans-Rechte sind Menschenrechte.",
+      "fr": "Les droits des personnes trans sont des droits humains."
+    }
+  },
+  {
+    "theme": "trans_pride",
+    "messages": {
+      "en": "Your gender is valid, no matter what.",
+      "es": "Tu género es válido, sin importar qué.",
+      "de": "Dein Geschlecht ist gültig, egal was ist.",
+      "fr": "Ton genre est valide, quoi qu'il arrive."
+    }
+  },
+  {
+    "theme": "queer_joy",
+    "messages": {
+      "en": "Queer joy is revolutionary.",
+      "es": "La alegría queer es revolucionaria.",
+      "de": "Queere Freude ist revolutionär.",
+      "fr": "La joie queer est révolutionnaire."
+    }
+  },
+  {
+    "theme": "queer_joy",
+    "messages": {
+      "en": "Live loudly, love freely, dance proudly.",
+      "es": "Vive con fuerza, ama libremente, baila con orgullo.",
+      "de": "Lebe laut, liebe frei, tanze mit Stolz.",
+      "fr": "Vis fort, aime librement, danse fièrement."
+    }
+  },
+  {
+    "theme": "ally_support",
+    "messages": {
+      "en": "Allies speak up. Allies show up. Always.",
+      "es": "Los aliados hablan. Los aliados aparecen. Siempre.",
+      "de": "Verbündete sprechen sich aus. Verbündete stehen auf. Immer.",
+      "fr": "Les allié·e·s s'expriment. Les allié·e·s sont là. Toujours."
+    }
+  },
+  {
+    "theme": "ally_support",
+    "messages": {
+      "en": "Support means action, not just words.",
+      "es": "El apoyo significa acción, no solo palabras.",
+      "de": "Unterstützung bedeutet Taten, nicht nur Worte.",
+      "fr": "Soutenir, c’est agir, pas seulement parler."
+    }
+  },
+  {
+    "theme": "pansexual_pride",
+    "messages": {
+      "en": "Pansexuality means loving people for who they are, not what they are.",
+      "es": "La pansexualidad significa amar a las personas por lo que son, no por lo que representan.",
+      "de": "Pansexualität bedeutet, Menschen für das zu lieben, was sie sind – nicht, was sie sind.",
+      "fr": "La pansexualité, c’est aimer les gens pour qui ils sont, pas pour ce qu’ils sont."
+    }
+  },
+  {
+    "theme": "pansexual_pride",
+    "messages": {
+      "en": "Your attraction isn’t confused — it’s expansive and beautiful.",
+      "es": "Tu atracción no está confundida, es amplia y hermosa.",
+      "de": "Deine Anziehung ist nicht verwirrt – sie ist weitreichend und wunderschön.",
+      "fr": "Ton attirance n'est pas confuse — elle est vaste et magnifique."
+    }
+  },
+  {
+    "theme": "demiboy_pride",
+    "messages": {
+      "en": "Being a demiboy is a valid, unique, and real gender experience.",
+      "es": "Ser un demiboy es una experiencia de género válida, única y real.",
+      "de": "Demiboy zu sein ist eine gültige, einzigartige und echte Geschlechtsidentität.",
+      "fr": "Être un demiboy est une expérience de genre valide, unique et réelle."
+    }
+  },
+  {
+    "theme": "demiboy_pride",
+    "messages": {
+      "en": "You don’t have to fully fit a box to be proud of your identity.",
+      "es": "No tienes que encajar completamente en una caja para estar orgulloso de tu identidad.",
+      "de": "Du musst nicht in eine Schublade passen, um stolz auf deine Identität zu sein.",
+      "fr": "Tu n’as pas à rentrer dans une case pour être fier·ère de ton identité."
+    }
+  },
+  {
+    "theme": "demigirl_pride",
+    "messages": {
+      "en": "Your femininity is your own — partial, full, or fluid.",
+      "es": "Tu feminidad es tuya — parcial, completa o fluida.",
+      "de": "Deine Weiblichkeit gehört dir – ob teilweise, vollständig oder fließend.",
+      "fr": "Ta féminité t’appartient — qu’elle soit partielle, totale ou fluide."
+    }
+  },
+  {
+    "theme": "demigirl_pride",
+    "messages": {
+      "en": "Demigirl identities are powerful, personal, and worthy of pride.",
+      "es": "Las identidades demigirl son poderosas, personales y dignas de orgullo.",
+      "de": "Demigirl-Identitäten sind kraftvoll, persönlich und stolz wert.",
+      "fr": "Les identités demigirl sont puissantes, personnelles et méritent d’être célébrées."
+    }
+  },
+  {
+    "theme": "asexual_pride",
+    "messages": {
+      "en": "Asexuality is real. You don’t need attraction to be whole.",
+      "es": "La asexualidad es real. No necesitas atracción para estar completo.",
+      "de": "Asexualität ist real. Du brauchst keine Anziehung, um vollständig zu sein.",
+      "fr": "L’asexualité est réelle. Tu n’as pas besoin d’attirance pour être complet·e."
+    }
+  },
+  {
+    "theme": "nonbinary_pride",
+    "messages": {
+      "en": "Nonbinary isn’t in between — it’s its own full identity.",
+      "es": "Ser no binario no es estar entre dos géneros — es una identidad completa.",
+      "de": "Nichtbinär ist kein Dazwischen – es ist eine vollwertige Identität.",
+      "fr": "Non binaire n’est pas un entre-deux — c’est une identité à part entière."
+    }
+  },
+  {
+    "theme": "intersex_pride",
+    "messages": {
+      "en": "Intersex people exist — and deserve full visibility and respect.",
+      "es": "Las personas intersex existen y merecen plena visibilidad y respeto.",
+      "de": "Intergeschlechtliche Menschen existieren — und verdienen volle Sichtbarkeit und Respekt.",
+      "fr": "Les personnes intersexes existent — et méritent d’être visibles et respectées."
+    }
+  },
+  {
+    "theme": "intersex_pride",
+    "messages": {
+      "en": "Bodily autonomy and identity belong to you — always.",
+      "es": "La autonomía corporal y la identidad te pertenecen — siempre.",
+      "de": "Körperliche Autonomie und Identität gehören dir — immer.",
+      "fr": "L'autonomie corporelle et l'identité t'appartiennent — toujours."
+    }
+  },
+  {
+    "theme": "polysexual_pride",
+    "messages": {
+      "en": "Polysexuality is real — attraction doesn’t need to be universal to be valid.",
+      "es": "La polisexualidad es real — la atracción no necesita ser universal para ser válida.",
+      "de": "Polisexualität ist real — Anziehung muss nicht universell sein, um gültig zu sein.",
+      "fr": "La polyséxualité est réelle — l'attirance n'a pas besoin d'être universelle pour être valide."
+    }
+  },
+  {
+    "theme": "polysexual_pride",
+    "messages": {
+      "en": "Your attraction is yours. Define it, own it, live it.",
+      "es": "Tu atracción es tuya. Defínela, abrázala, vívela.",
+      "de": "Deine Anziehung gehört dir. Definiere sie, lebe sie, liebe sie.",
+      "fr": "Ton attirance t'appartient. Définis-la, revendique-la, vis-la."
+    }
+  },
+  {
+    "theme": "aromantic_pride",
+    "messages": {
+      "en": "Romance isn’t a requirement. You are whole without it.",
+      "es": "El romance no es un requisito. Eres completo sin él.",
+      "de": "Romantik ist kein Muss. Du bist auch ohne sie vollständig.",
+      "fr": "Le romantisme n'est pas une obligation. Tu es complet·e sans cela."
+    }
+  },
+  {
+    "theme": "aromantic_pride",
+    "messages": {
+      "en": "Aromantic pride is just as important. Your way of loving is valid.",
+      "es": "El orgullo aromántico es igual de importante. Tu forma de amar es válida.",
+      "de": "Aromantischer Stolz ist genauso wichtig. Deine Art zu lieben ist gültig.",
+      "fr": "La fierté aromantique est tout aussi importante. Ta façon d’aimer est valable."
+    }
+  }
+]
