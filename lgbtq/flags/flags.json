@@ -6,8 +6,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing transgender individuals — those whose gender identity differs from the sex they were assigned at birth.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "gender",
+    "subtype": "umbrella"
   },
   {
     "name": "Rainbow",
@@ -16,8 +16,8 @@
     "type": "horizontal-stripes",
     "description": "The classic rainbow flag representing the LGBTQ+ community as a whole, symbolizing diversity and inclusion.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "umbrella",
+    "subtype": "umbrella"
   },
   {
     "name": "Nonbinary",
@@ -26,8 +26,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing nonbinary individuals — those who do not identify exclusively as male or female.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "gender",
+    "subtype": "misc gender"
   },
   {
     "name": "Bisexual",
@@ -36,8 +36,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing bisexual individuals — traditionally understood as attraction to two genders, now often seen as attraction to more than one gender.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "sexuality",
+    "subtype": "attraction"
   },
   {
     "name": "Pansexual",
@@ -46,8 +46,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing pansexual individuals — those who experience attraction regardless of gender.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "sexuality",
+    "subtype": "attraction"
   },
   {
     "name": "Asexual",
@@ -56,8 +56,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing asexual individuals — those who experience little or no sexual attraction.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "sexuality",
+    "subtype": "attraction"
   },
   {
     "name": "Genderqueer",
@@ -66,8 +66,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing genderqueer individuals — those whose gender identity falls outside the traditional binary.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "gender",
+    "subtype": "misc gender"
   },
   {
     "name": "Agender",
@@ -76,8 +76,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing agender individuals — those who identify as having no gender or a neutral gender.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "gender",
+    "subtype": "genderless"
   },
   {
     "name": "Lesbian",
@@ -86,8 +86,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing lesbians — women who are romantically or sexually attracted to other women.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "sexuality",
+    "subtype": "attraction"
   },
   {
     "name": "Genderfluid",
@@ -96,8 +96,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing genderfluid individuals — those whose gender identity shifts or changes over time.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "gender",
+    "subtype": "demigender"
   },
   {
     "name": "Demiboy",
@@ -106,8 +106,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing demiboys — individuals who partially identify as male, but not wholly or exclusively.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "demigender",
+    "subtype": "male genders"
   },
   {
     "name": "Demigirl",
@@ -116,8 +116,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing demigirls — individuals who partially identify as female, but not wholly or exclusively.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "demigender",
+    "subtype": "female genders"
   },
   {
     "name": "Femboy",
@@ -126,8 +126,8 @@
     "type": "horizontal-stripes",
     "description": "A flag representing femboys — individuals who identify as male but embrace traditionally feminine traits and aesthetics.",
     "source": "",
-    "pridetype": "",
-    "subtype": ""
+    "pridetype": "presentation",
+    "subtype": "feminine genders"
   },
   {
     "name": "Cuddleplushgender",
@@ -157,7 +157,7 @@
     "description": "Catgender is a xenogender in which one feels an extremely strong connection to cats or other felines, either strongly identifying with them or simply wanting to incorporate them into their gender to better understand their identity. It was made with neurodivergent individuals in mind, specifically autistic individuals, as well as individuals who may experience delusions relating to being a cat or other feline, or individuals who experience species-regression. However, anyone may identify as catgender. One who identifies as catgender may refer to themself as a \"catboy,\" \"catgirl,\" \"nyan-binary,\" or simply catgender or another combination, depending on their gender identity. The term is related to, but not to be confused with, Purrgender.There are multiple subtypes of catgender. These include, but are not limited to, the following:Kitten/kittygender: when one is catgender and species regresses and/or age regresses.Meowgender: when one connects with older/full grown cats.Mewgender: when one connects with younger cats (kittens).Species/Felinegender: when one connects to a specific species of cat (eg. tigergender).",
     "source": "https://lgbtqia.wiki/wiki/Catgender",
     "pridetype": "xenogender",
-    "subtype": "masculine genders"
+    "subtype": "genders"
   },
   {
     "name": "Catboygender",
