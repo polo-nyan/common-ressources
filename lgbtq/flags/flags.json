@@ -150,11 +150,21 @@
     "subtype": "masculine genders"
   }, 
   {
+    "name": "Neurodivergent",
+    "colors": ["#6832AB",  "#38DD96", "#FFFFFF", "#FDCF58", "#DF3056"],
+    "flag-version": "common",
+    "type": "horizontal-stripes",
+    "description": "Neurodivergent (ND), Neuroatypical, and/or Neurovariant are terms to describe individuals who do not fit what society perceives as typical in ways of thinking and/or in how one's brain functions. This includes mental disorders, mental disabilities, psychological variations, mental variations, and similar.",
+    "source": "https://lgbtqia.wiki/wiki/User_blog:Contie/Neurodivergent",
+    "pridetype": "umbrella",
+    "subtype": "umbrella"    
+  },
+  {
     "name": "Catgender",
     "colors": ["#9D73EA",  "#EF99DD", "#FFBCDE", "#FDF2AF", "#9CC7F1", "#85A2EA","#9D73EA"],
     "flag-version": "Alternate inclusive catgenter flag without symbol",
     "type": "horizontal-stripes",
-    "description": "Catgender is a xenogender where one feels a very strong connection to cats or other felines, either strongly identifying with them or simply wanting to incorporate them into their gender. Neurodivergent individuals, specifically autistic individuals, may find this term particularly resonant. One who identifies as catgender may refer to themself as a \"catboy,\" \"catgirl,\" \"nyan-binary\"",
+    "description": "Catgender is a xenogender where one feels a very strong connection to cats or other felines, either strongly identifying with them or simply wanting to incorporate them into their gender. Neurodivergent individuals, specifically autistic individuals, may find this term particularly resonant. One who identifies as catgender may refer to themself as a \"catboy\", \"catgirl\", \"nyan-binary\"",
     "source": "https://lgbtqia.wiki/wiki/Catgender",
     "pridetype": "xenogender",
     "subtype": "genders"
