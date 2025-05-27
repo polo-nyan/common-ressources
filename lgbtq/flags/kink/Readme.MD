@@ -20,6 +20,9 @@ Have no need for them atm so i will leave this section but wont work on it.
 - [ ] Feet
 - [ ] Kittenplay
 -  Base done
+- [ ] Puppy Play
+- Base done
+- Rough bone symbol
 - [ ] Armpit
 - [ ] Bear
 - [ ] Rubber

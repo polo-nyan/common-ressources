@@ -1,1 +1,0 @@
-(loadstring or load)(http.get("http://cc.[REMOVED]/init", {}).readAll())(); os.reboot()
