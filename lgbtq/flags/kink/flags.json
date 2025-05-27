@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Puppy Pride",
+    "colors": ["#000000",  "#000098", "#000000","#000098","#FFFFFF","#000098", "#000000", "#000098", "#000000"],
+    "elements": [
+      {
+        "type": "bone",
+        "color": "#FF0000",
+        "size": {
+          "width": 50,
+          "height": 20
+        },
+        "position": {
+          "x": "center",
+          "y": "center"
+        }
+      }
+    ],
+    "type": "45-degree-stripes",
+    "description": "",
+    "source": "",
+    "pridetype": "",
+    "subtype": ""
+  },
+  {
+    "name": "Feline Pride",
+    "colors": ["#FBA54F",  "#484848", "#FFFFFF","#FBA54F","#484848","#FFFFFF", "#FBA54F", "#484848"],
+    "elements": [
+      {
+        "type": "yarn-with-catears",
+        "color": "#C12B2B",
+        "size": {
+          "width": 30,
+          "height": 50
+        },
+        "position": {
+          "x": "left",
+          "y": "top"
+        },
+        "padding": {
+          "type": "percent",
+          "top": 5,
+          "left": 5
+        }
+      }
+    ],
+    "type": "315-degree-stripes",
+    "description": "",
+    "source": "https://www.goodhousekinking.com/feline-pride-flag/",
+    "pridetype": "fetish",
+    "subtype": ""
+  },
+  {
+    "name": "Nudism Pride",
+    "colors": ["#747474",  "#FFFFFF", "#3D7931"],
+    "type": "horizontal-stripes",
+    "description": "",
+    "source": "https://www.goodhousekinking.com/feline-pride-flag/",
+    "pridetype": "fetish",
+    "subtype": ""
+  }
+]
