@@ -3,15 +3,14 @@
 
 
 //4× upscale, 40 is ok too, didnt bother to test other values
-$scale = 20;
+$scale = 10;
 
 //size canvas
 $width = 200 * $scale;
-$height = 50 * $scale;
+$height = 0;
 
 //get the flags from the github repo
 $flags = file_get_contents('https://raw.githubusercontent.com/polo-nyan/common-ressources/refs/heads/main/lgbtq/flags/flags.json');
-
 
 /*$flags = <<<JSON
 
@@ -23,6 +22,13 @@ if (!$flags) {
     die('Error loading flags data.');
 }
 
+
+//precalculate flag rows and add height to image
+$flagRows = ceil(count($flags) / 9); // Assuming 10 flags per row
+$height = $flagRows * (14 * $scale) + (20 * $scale); // 10 flags height + 20px padding
+
+
+
 // Create a blank image
 header("Content-Type: image/png");
 $im = imagecreatetruecolor($width, $height);
@@ -33,7 +39,8 @@ $white = imagecolorallocate($im, 255, 255, 255);
 imagefill($im, 0, 0, $white);
 
 // Function to convert hex color to RGB
-function hexToRgb($hex) {
+function hexToRgb($hex)
+{
     $hex = str_replace('#', '', $hex);
     if (strlen($hex) == 3) {
         $hex = $hex[0] . $hex[0] . $hex[1] . $hex[1] . $hex[2] . $hex[2];
@@ -46,7 +53,8 @@ function hexToRgb($hex) {
 }
 
 // Function to create a flag image
-function createFlagImage($flagData, $width, $height) {
+function createFlagImage($flagData, $width, $height)
+{
     $flag = imagecreatetruecolor($width, $height);
     $colors = $flagData['colors'];
     $type = $flagData['type'] ?? 'horizontal-stripes';
@@ -84,10 +92,14 @@ function createFlagImage($flagData, $width, $height) {
             $w = $stripeWidth / 2;
 
             $polygon = [
-                round($cx - $dx * $half - $nx * $w), round($cy - $dy * $half - $ny * $w),
-                round($cx - $dx * $half + $nx * $w), round($cy - $dy * $half + $ny * $w),
-                round($cx + $dx * $half + $nx * $w), round($cy + $dy * $half + $ny * $w),
-                round($cx + $dx * $half - $nx * $w), round($cy + $dy * $half - $ny * $w),
+                round($cx - $dx * $half - $nx * $w),
+                round($cy - $dy * $half - $ny * $w),
+                round($cx - $dx * $half + $nx * $w),
+                round($cy - $dy * $half + $ny * $w),
+                round($cx + $dx * $half + $nx * $w),
+                round($cy + $dy * $half + $ny * $w),
+                round($cx + $dx * $half - $nx * $w),
+                round($cy + $dy * $half - $ny * $w),
             ];
 
             imagefilledpolygon($flag, $polygon, $col);
@@ -98,7 +110,7 @@ function createFlagImage($flagData, $width, $height) {
         foreach ($colors as $i => $color) {
             $rgb = hexToRgb($color);
             $col = imagecolorallocate($flag, $rgb[0], $rgb[1], $rgb[2]);
-            imagefilledrectangle($flag, 0, (int)($i * $stripeHeight), $width, (int)(($i + 1) * $stripeHeight), $col);
+            imagefilledrectangle($flag, 0, (int) ($i * $stripeHeight), $width, (int) (($i + 1) * $stripeHeight), $col);
         }
     }
 
@@ -116,10 +128,21 @@ foreach ($flags as $flagData) {
     $flagImage = createFlagImage($flagData, $flagWidth, $flagHeight);
     imagecopy($im, $flagImage, $flagX, $flagY, 0, 0, $flagWidth, $flagHeight);
     imagedestroy($flagImage);
+
+    //add label
+    $label = $flagData['name'] ?? 'Unknown';
+    $fontSize = 2 * $scale; // Font size for the label
+    $textColor = imagecolorallocate($im, 0, 0, 0); // Black color for text
+    $textWidth = imagefontwidth($fontSize) * strlen($label);
+    $textX = $flagX + ($flagWidth - $textWidth) / 2; // Center the text
+    $textY = $flagY + $flagHeight + 2 * $scale; // Position below the flag
+
+    imagestring($im, $fontSize, (int) $textX, (int) $textY, $label, $textColor);
+
     $flagX += $flagWidth + 5 * $scale; // Move to the right for the next flag
     if ($flagX + $flagWidth > $width - 10 * $scale) {
         $flagX = 10 * $scale; // Reset X position for the next row
-        $flagY += $flagHeight + 2.5 * $scale; // Move down for the next row
+        $flagY += $flagHeight + 4 * $scale; // Move down for the next row
     }
 }
 
