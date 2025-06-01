@@ -13,8 +13,8 @@ Getting the latest version is possible as i plan to update it backwards compatib
   "flag-version": "common", // common, variant, alternate made by, without symbol, etc.
   "type": "horizontal-stripes", // horizontal-stripes, vertical-stripes, 130-degree-stripes, [0-360]-degree-stripes...
   "source": "Source of the flag or description",
-  "implies": "optional, when the flag implies another flag"
-  "pridetype": "gender",//xenogender, sexuality, kink/fetish ...
+  "implies": "optional, when the flag implies another flag",
+  "pridetype": "gender",//xenogender, sexuality
   "subtype": "optional subtype"
 }
 ```
