@@ -160,12 +160,33 @@
     "subtype": "umbrella"    
   },
   {
+    "name": "Furrgender",
+    "colors": ["#FFB6C1",  "#FFE4B5", "#FFFFE0", "#90EE90", "#9CC7F1", "#85A2EA","#D3D3D3"],
+    "flag-version": "The official furrgender flag.",
+    "type": "horizontal-stripes",
+    "description": "Furrgender is a xenogender characterized by a soft, fluffy, and cuddly essence, akin to the comforting presence of furry animals like rabbits. Individuals who identify with furrgender may experience their gender as warm, gentle, and nurturing, reflecting qualities often associated with furry creatures.",
+    "source": "https://lgbtqia.wiki/wiki/Furrgender",
+    "pridetype": "xenogender",
+    "subtype": "aesthetigender"
+  },
+  {
+    "name": "Bunnygender",
+    "colors": ["#74F49B",  "#FFFFFF", "#76B2F6", "#FFFFFF", "#74F49B"],
+    "flag-version": "The bunnygender flag.",
+    "type": "horizontal-stripes",
+    "description": "Bunnygender is a xenogender in where someone feels a connection to bunnies or other similar animals, whether it be a connection to them or simply incorporating them into their gender to better understand it. Bunnygender was made mostly for neurodivergent individuals, specifically for autistic individuals. However, anyone can identify as bunnygender.",
+    "source": "https://lgbtqia.wiki/wiki/Bunnygender",
+    "pridetype": "xenogender",
+    "subtype": "neurogenders"
+  },
+  {
     "name": "Catgender",
     "colors": ["#9D73EA",  "#EF99DD", "#FFBCDE", "#FDF2AF", "#9CC7F1", "#85A2EA","#9D73EA"],
     "flag-version": "Alternate inclusive catgenter flag without symbol",
     "type": "horizontal-stripes",
     "description": "Catgender is a xenogender where one feels a very strong connection to cats or other felines, either strongly identifying with them or simply wanting to incorporate them into their gender. Neurodivergent individuals, specifically autistic individuals, may find this term particularly resonant. One who identifies as catgender may refer to themself as a \"catboy\", \"catgirl\", \"nyan-binary\"",
     "source": "https://lgbtqia.wiki/wiki/Catgender",
+    "implies": "furrgender",
     "pridetype": "xenogender",
     "subtype": "genders"
   },
